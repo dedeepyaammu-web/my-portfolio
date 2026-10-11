@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of a B.Tech CSE student and aspiring web developer.">
+  <title>My Portfolio | Web Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Port<span>folio.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="navLinks">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            ASPIRING WEB DEVELOPER
+          </p>
+
+          <h1>Hello, I'm <span class="gradient-text">Dedeepya</span></h1>
+
+          <h2>I build websites that make an impact.</h2>
+
+          <p class="hero-description">
+            I'm a B.Tech CSE student learning web development
+            and building creative digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+            <a href="#contact" class="btn btn-outline">Let's Connect</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank"
+              rel="noopener noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow"></div>
+          <div class="profile-card">
+            <div class="profile-avatar">DM</div>
+            <p class="profile-label">CREATIVE MIND. CURIOUS DEVELOPER.</p>
+            <h3>Turning ideas into digital experiences.</h3>
+            <div class="profile-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="floating-badge badge-top">✦ Creative</div>
+          <div class="floating-badge badge-bottom">{"</>"} Building</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2 class="section-title">A little about <span>me.</span></h2>
+
+        <div class="about-grid">
+          <div class="about-mark">DM<span>.</span></div>
+          <div class="about-content">
+            <h3>Learning today. Building for tomorrow.</h3>
+            <p>
+              I'm a Computer Science student passionate about
+              technology, web design, and solving problems.
+              I'm currently improving my skills by building
+              practical projects and learning something new every day.
+            </p>
+            <p>
+              My goal is to create websites that look beautiful,
+              work smoothly, and help people and businesses grow.
+            </p>
+            <a href="#contact" class="text-link">Let's work together ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-label">WHAT I'M LEARNING</p>
+        <h2 class="section-title">My <span>skills.</span></h2>
+        <p class="section-description">
+          Technologies I'm learning and using in my projects.
+        </p>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon html-icon">5</div>
+            <h3>HTML5</h3>
+            <p>Building the structure of websites.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon css-icon">#</div>
+            <h3>CSS3</h3>
+            <p>Creating attractive and responsive designs.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon js-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interaction and functionality.</p>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-icon tools-icon">✦</div>
+            <h3>Problem Solving</h3>
+            <p>Practising logical thinking and debugging.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="section-label">MY RECENT WORK</p>
+        <h2 class="section-title">Featured <span>projects.</span></h2>
+        <p class="section-description">
+          A few projects I'm building to practise my skills.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-one">
+              <span class="art-symbol">01</span>
+              <span class="art-caption">CREATIVE PORTFOLIO</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">WEB DESIGN</p>
+              <h3>Personal Portfolio</h3>
+              <p>A responsive website to showcase my skills and work.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <a href="#contact" class="text-link">Discuss a project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-two">
+              <span class="art-symbol">02</span>
+              <span class="art-caption">FRESH EVERY DAY</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">BUSINESS WEBSITE</p>
+              <h3>Bakery Website</h3>
+              <p>A sample business website with products and contact details.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>Responsive</span>
+              </div>
+              <a href="#contact" class="text-link">Discuss a project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art art-three">
+              <span class="art-symbol">03</span>
+              <span class="art-caption">PLAN YOUR SUCCESS</span>
+            </div>
+            <div class="project-info">
+              <p class="project-type">STUDENT TOOL</p>
+              <h3>Study Planner</h3>
+              <p>A concept for organising study tasks and daily goals.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <a href="#contact" class="text-link">Discuss a project ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="section-label">HAVE A PROJECT IN MIND?</p>
+        <h2 class="section-title">Let's create something <span>great.</span></h2>
+        <p class="section-description">
+          Have an idea or want a website for your business?
+          Send me a message.
+        </p>
+
+        <div class="contact-card">
+          <div class="contact-details">
+            <h3>Let's talk!</h3>
+            <p>I'm open to discussing projects, ideas, and learning opportunities.</p>
+            <p class="contact-item">✉ <span id="emailDisplay">dedeepya@gmail.com</span></p>
+            <p class="contact-item">◎ <span>Available for project enquiries</span></p>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name"
+              placeholder="Enter your name" required>
+
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email"
+              placeholder="Enter your email" required>
+
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="4"
+              placeholder="Tell me about your project..." required></textarea>
+
+            <button type="submit" class="btn btn-primary">
+              Prepare Email ↗
+            </button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="logo">Port<span>folio.</span></a>
+      <p>Designed & built with curiosity. © <span id="year"></span></p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
